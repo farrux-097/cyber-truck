@@ -1,0 +1,35 @@
+.section-page {
+  padding-top: 200px;
+}
+
+.page-until {
+  padding-bottom: 80px;
+}
+
+.page-vaul {
+  padding-bottom: 80px;
+}
+
+.page-and {
+  padding-bottom: 80px;
+}
+
+.page-car-item {
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+}
+
+.page-car-titel {
+  width: 972px;
+  padding-bottom: 32px;
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+}/*# sourceMappingURL=untie-section.css.map */

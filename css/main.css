@@ -1,0 +1,205 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header-sayt {
+  height: 900px;
+  background-image: url("/imgs/img-bg-img.png");
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-wrapper {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.sayt-logo {
+  padding-bottom: 50px;
+}
+
+.header-titel {
+  padding-bottom: 500px;
+  color: rgb(0, 0, 0);
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0%;
+}
+
+.header-link {
+  width: 225px;
+  height: 54px;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 62px 14px 62px;
+  text-decoration: none;
+  color: white;
+  border: 4px solid rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 600px) {
+  .header-sayt {
+    width: 375px;
+  }
+  .sayt-logo {
+    width: 200px;
+    height: 56px;
+  }
+  .header-link {
+    width: 335px;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 62px 14px 62px;
+    text-decoration: none;
+    color: white;
+    border: 4px solid rgb(255, 255, 255);
+  }
+  .header-titel {
+    width: 301px;
+    height: 75px;
+    padding-bottom: 500px;
+    color: rgb(0, 0, 0);
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0%;
+  }
+}
+.sayt-main {
+  background-color: black;
+}
+
+.section-top-page {
+  display: flex;
+  padding-top: 200px;
+  gap: 42px;
+  margin-bottom: 100px;
+}
+
+.page-item {
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+}
+
+.page-text {
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+.wrapper-bottom-page {
+  display: flex;
+  gap: 42px;
+}
+
+.page-ultra {
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+}
+
+.page-text {
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+@media only screen and (max-width: 375px) {
+  .page-text {
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+  }
+  .hero-img {
+    width: 335px;
+    height: 190px;
+  }
+  .section-top-page {
+    width: 176px;
+    height: 29px;
+  }
+}
+.sayt-footer {
+  display: flex;
+  padding-top: 130px;
+  background-color: black;
+}
+
+.footer-wrapper {
+  gap: 73px;
+  padding-bottom: 100px;
+}
+
+.section-page {
+  padding-top: 200px;
+}
+
+.page-until {
+  padding-bottom: 80px;
+}
+
+.page-vaul {
+  padding-bottom: 80px;
+}
+
+.page-and {
+  padding-bottom: 80px;
+}
+
+.page-car-item {
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+}
+
+.page-car-titel {
+  width: 972px;
+  padding-bottom: 32px;
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+}/*# sourceMappingURL=main.css.map */
